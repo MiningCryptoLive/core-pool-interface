@@ -1,0 +1,54 @@
+{
+  "title": "etc.miningcrypto.live",
+  "description": "Welcome to our ETC Mining Pool",
+  "logo": "etc.svg",
+  "favicon": "favicon.png",
+  "banner": "banner.jpg",
+  "url": "https://etc.miningcrypto.live",
+  "api": "https://etc.miningcrypto.live",
+  "stratum": "etc.miningcrypto.live:8002",
+  "network": "classic",
+  "explorer": {
+    "url": "https://blockscout.com",
+    "type": "blockscout"
+  },
+  "poolFee": "1",
+  "payoutThreshold": "0.05",
+  "mode": "PROP",
+   "theme": {
+    "dark": true,
+    "themes": {
+      "dark": {
+        "primary": "#607d8b",
+        "secondary": "#838996",
+        "accent": "#ffeb3b",
+        "error": "#f44336",
+        "info": "#ffc107",
+        "success": "#4CAF50",
+        "warning": "#FF9800",
+        "borders": "#2E2E2E"
+      },
+      "light": {
+        "primary": "#1976D2",
+        "secondary": "#F5F5F5",
+        "accent": "#82B1FF",
+        "error": "#FF5252",
+        "info": "#2196F3",
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "borders": "#E1E1E1"
+      }
+    },
+    "options": { 
+      "customProperties": true 
+    }
+  },
+  "i18n": {
+    "default": "en",
+    "fallback": "en"
+  },
+  "extraPools": [
+    { "network": "ubiq", "url": "https://ubiq.miningcrypto.live", "type": "PPLNS" },
+    { "network": "classic", "url": "https://etc-solo.miningcrypto.live", "type": "SOLO" }
+]
+}
