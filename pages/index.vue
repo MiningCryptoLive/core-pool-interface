@@ -3,7 +3,7 @@
     <v-col cols="12" class="pa-0">
       <v-card flat tile class="mb-0">
         <v-img
-          height="200"
+          height="300"
           :src="require('~/static/' + config.banner)"
           gradient="to top right, rgba(0,0,0,.9), rgba(255,255,201,.33)"
           class="white--text align-end"
@@ -74,7 +74,17 @@
                 >core-pool</a
               >.
             </li>
-            <li>{{ $t('pages.home.protocols') }}</li>
+            <li>{{ $t('pages.home.protocols') }}</li><br>
+	    <li> Server Locations</li>
+	    <li>U.S.A. - etc.miningcrypto.live</li>
+	    <li>Canada - etc-ca.miningcrypto.live</li>
+	    <li>London - etc-eu.miningcrypto.live</li>
+	    <li>Germany - etc-de.miningcrypto.live</li><br>
+	    <li>Available Ports</li>
+	    <li>2G port - 8002 - 1-2 gpu rig</li>
+	    <li>4G port - 8004 - 4-6 gpu rig</li>
+	    <li>8G port - 8008 - 6 + gpu rig</li>
+	    
           </ul>
         </v-card-text>
       </v-card>
