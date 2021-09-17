@@ -194,7 +194,7 @@
               $t('info.network.difficulty')
             }}</v-list-item-title>
             <v-list-item-subtitle>{{
-              formatHashrate(stats.difficulty, false)
+              formatHashrate(stats.difficulty, true)
             }}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
