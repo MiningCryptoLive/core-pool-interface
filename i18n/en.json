@@ -2,26 +2,26 @@
     "menu": {
         "home": "Home",
         "blocks": "Pool Blocks",
-        "payments": "Payments",
-        "help": "Help",
-        "miningPool": "mining pool",
+        "payments": "Miner Payments",
+        "help": "Get Connected",
+        "miningPool": "Mining Pool",
         "minimize": "Minimize"
     },
     "info": {
         "pool": {
             "title": "POOL",
-            "hashrate": "Hashrate",
-            "lastBlock": "Last Block",
-            "miners": "Online",
-            "fee": "Fee"
+            "hashrate": "Pool Hashrate",
+            "lastBlock": "Last Block Found",
+            "miners": "Miners Online",
+            "fee": "Pool Fee"
         },
         "network": {
             "title": "NETWORK",
             "height": "Block Height",
-            "difficulty": "Difficulty",
-            "hashrate": "Hashrate",
+            "difficulty": "Network Difficulty",
+            "hashrate": "Network Hashrate",
             "epoch": "Epoch",
-            "dag": "DAG"
+            "dag": "DAG Size"
         },
         "hide": "Hide"
     },
@@ -29,7 +29,7 @@
         "home": {
             "testnetAlert": "This pool is configured for the {title}. The {symbol} rewarded is testnet {symbol}.",
             "minimumPayout": "Min. payout threshold: {threshold} {symbol}.",
-            "mode": "{mode} stable and profitable pool with regular payouts.",
+            "mode": "{mode} highly optimized, stable and profitable pool.",
             "poweredBy": "Powered by",
             "protocols": "Getwork & Stratum supported.",
             "account": "Account",
@@ -81,7 +81,7 @@
             "blocksFound": "BLOCKS FOUND",
             "workersOnline": "WORKERS ONLINE",
             "roundShare": "YOUR ROUND SHARE",
-            "info": "Your average hashrate will be smoothly adjusted until you have shares to fullfill estimation window. There are two windows, long and short, first is equal to about 30 minutes and long window is usually equal to 3 hours. Dead (sick) workers will be highlighted in a table of workers if they didn't submit a share for 1/2 of short window, so you can perform maintenance of your rigs.",
+            "info": "Your average hashrate will be smoothly adjusted until you have shares to fullfill the estimation window. There are two windows, long and short, first is equal to about 30 minutes and long window is equal to 3 hours. Dead (sick) workers will be highlighted in a table of workers if they didn't submit a share for 1/2 of short window, so you can perform maintenance of your rigs.",
             "jsonApi": "Your bulk stats JSON API URL:",
             "workers": "Workers",
             "payments": "Payments",
